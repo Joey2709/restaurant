@@ -7,4 +7,12 @@ module.exports = {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
   },
+  module: {
+    rules: [
+      {
+        type: "asset",
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+      },
+    ],
+  },
 };

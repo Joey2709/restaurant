@@ -63,9 +63,7 @@ const createMenu = (e) => {
       const title = document.createElement("h2");
       menu.appendChild(container);
       container.appendChild(title);
-      container
-        .appendChild(img)
-        .setAttribute("src", `../src/img/menu-${i + 1}.png`);
+      container.appendChild(img).setAttribute("src", `img/menu-${i + 1}.png`);
       title.textContent = descripcionHamburguesas[i];
     }
   }
@@ -78,9 +76,7 @@ const createMenu = (e) => {
       const title = document.createElement("h2");
       menu.appendChild(container);
       container.appendChild(title);
-      container
-        .appendChild(img)
-        .setAttribute("src", `../src/img/bebida-${i + 1}.png`);
+      container.appendChild(img).setAttribute("src", `img/bebida-${i + 1}.png`);
       title.textContent = descripcionBebidas[i];
     }
   }
@@ -93,9 +89,7 @@ const createMenu = (e) => {
       const title = document.createElement("h2");
       menu.appendChild(container);
       container.appendChild(title);
-      container
-        .appendChild(img)
-        .setAttribute("src", `../src/img/helado-${i + 1}.png`);
+      container.appendChild(img).setAttribute("src", `img/helado-${i + 1}.png`);
       title.textContent = descripcionHelados[i];
     }
   }
